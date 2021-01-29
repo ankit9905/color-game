@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding-left: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+/* 
+button {
+    background: linear-gradient(125deg, #778beb, #f8a);
+    background-color: blue;
+    border: none;
+    outline: none;
+} */
+
+#special {
+    /* background-image: linear-gradient(90 deg,yellow,red); */
+    /* background-color: chartreuse; */
+    /* background: linear-gradient(170deg,yellow,red,blue); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2px;
+    height: 25%;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.square {
+    background-color: chartreuse;
+    padding-bottom: 30%;
+    width: 30%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 33%;
+}
+
+#container {
+    max-width: 600px;
+    margin-left: 30%;
+}
+
+button :nth-of-type(1) {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+span {
+    color: rgb(12, 180, 12);
+    margin-left: 150px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#easy {
+    /* padding-left: 5%; */
+    margin-left: 180px;
+}
+
+.select {
+    background: linear-gradient(200deg, white, black);
+    /* background-color: greenyellow; */
+}
+
+
+/* .ankit{
+    background: linear-gradient(90deg,yellow,red);
+  } */
